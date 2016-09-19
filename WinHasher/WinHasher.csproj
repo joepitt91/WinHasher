@@ -17,7 +17,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
-    <PublishUrl>W:\www.joepitt.co.uk\Public\Project\WinHasher\</PublishUrl>
+    <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -27,10 +27,9 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://www.joepitt.co.uk/Project/WinHasher/</InstallUrl>
-    <UpdateUrl>https://www.joepitt.co.uk/Project/WinHasher/</UpdateUrl>
-    <SupportUrl>https://www.joepitt.co.uk/Project/WinHash/</SupportUrl>
-    <ErrorReportUrl>https://www.joepitt.co.uk/Project/WinHash/Error</ErrorReportUrl>
+    <InstallUrl>https://www.joepitt.co.uk/Project/WinHasher/Publish/</InstallUrl>
+    <UpdateUrl>https://www.joepitt.co.uk/Project/WinHasher/Publish/</UpdateUrl>
+    <SupportUrl>https://www.joepitt.co.uk/Project/WinHasher/</SupportUrl>
     <TargetCulture>en-GB</TargetCulture>
     <ProductName>WinHasher</ProductName>
     <PublisherName>Joe Pitt</PublisherName>
@@ -65,7 +64,7 @@
     <ApplicationIcon>WinHasher.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>6CF37FC11D79C7961430EBF54D83B412E43093F5</ManifestCertificateThumbprint>
@@ -120,8 +119,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <!--Sign the EXE using SHA-256 once compiled-->
-  <Target Name="AfterCompile">
-    <Exec Command="&quot;C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe&quot; sign /a /i &quot;Certum Level III CA&quot; /t &quot;http://time.certum.pl/&quot; /fd sha256 &quot;$(ProjectDir)obj\$(ConfigurationName)\$(TargetFileName)&quot;" />
-  </Target>
 </Project>
