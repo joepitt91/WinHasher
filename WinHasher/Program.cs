@@ -8,7 +8,7 @@ namespace SHA1
     {
         static void Main(string[] args)
         {
-            string version = "WinHasher v1.0.0.0";
+            string version = "WinHasher v1.1";
         start:
             Console.Title = version;
             Console.Clear();
@@ -59,21 +59,13 @@ namespace SHA1
                 string sha512 = BitConverter.ToString(sha512er.ComputeHash(sr.BaseStream));
                 sha512 = sha512.ToLower();
                 sha512 = sha512.Replace("-", "");
-
-                //RIPEMD160
-                RIPEMD160Managed ripemd160er = new RIPEMD160Managed();
-                string ripemd160 = BitConverter.ToString(ripemd160er.ComputeHash(sr.BaseStream));
-                ripemd160 = ripemd160.ToLower();
-                ripemd160 = ripemd160.Replace("-", "");
-
-
+                
                 //Print Results
                 Console.WriteLine("MD5:       " + md5);
                 Console.WriteLine("SHA-1:     " + sha1);
                 Console.WriteLine("SHA-256:   " + sha256);
                 Console.WriteLine("SHA-384:   " + sha384);
                 Console.WriteLine("SHA-512:   " + sha512);
-                Console.WriteLine("RIPEMD160: " + sha384);
             }
         }
     }
