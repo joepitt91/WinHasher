@@ -1,31 +1,43 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinHasher", "WinHasher\WinHasher.csproj", "{6855BDD6-5F31-4B28-9A7B-D0A62764FAE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoePitt.WinHasher", "JoePitt.WinHasher\JoePitt.WinHasher.csproj", "{152E9CAD-B262-4C47-8877-FFF0004B5D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoePitt.WinHasher.CLI", "JoePitt.WinHasher.CLI\JoePitt.WinHasher.CLI.csproj", "{B8312651-F0E5-4A21-937B-FA4BA4E84D02}"
+	ProjectSection(ProjectDependencies) = postProject
+		{152E9CAD-B262-4C47-8877-FFF0004B5D70} = {152E9CAD-B262-4C47-8877-FFF0004B5D70}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoePitt.WinHasher.GUI", "JoePitt.WinHasher.GUI\JoePitt.WinHasher.GUI.csproj", "{3AA27606-8829-4176-A764-5919B5B74864}"
+	ProjectSection(ProjectDependencies) = postProject
+		{152E9CAD-B262-4C47-8877-FFF0004B5D70} = {152E9CAD-B262-4C47-8877-FFF0004B5D70}
+	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://joepitt.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WinHasher\\WinHasher.csproj
-		SccProjectName1 = WinHasher
-		SccLocalPath1 = WinHasher
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6855BDD6-5F31-4B28-9A7B-D0A62764FAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6855BDD6-5F31-4B28-9A7B-D0A62764FAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6855BDD6-5F31-4B28-9A7B-D0A62764FAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6855BDD6-5F31-4B28-9A7B-D0A62764FAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152E9CAD-B262-4C47-8877-FFF0004B5D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152E9CAD-B262-4C47-8877-FFF0004B5D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152E9CAD-B262-4C47-8877-FFF0004B5D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152E9CAD-B262-4C47-8877-FFF0004B5D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8312651-F0E5-4A21-937B-FA4BA4E84D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8312651-F0E5-4A21-937B-FA4BA4E84D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8312651-F0E5-4A21-937B-FA4BA4E84D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8312651-F0E5-4A21-937B-FA4BA4E84D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA27606-8829-4176-A764-5919B5B74864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA27606-8829-4176-A764-5919B5B74864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA27606-8829-4176-A764-5919B5B74864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA27606-8829-4176-A764-5919B5B74864}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57C66852-6891-49F9-8161-499D5320B623}
 	EndGlobalSection
 EndGlobal
