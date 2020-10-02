@@ -30,12 +30,10 @@
     <ProductName>WinHasher CLI</ProductName>
     <PublisherName>Joe Pitt</PublisherName>
     <SuiteName>WinHasher</SuiteName>
-    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
-    <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>2.0.0.0</ApplicationVersion>
-    <UseApplicationTrust>true</UseApplicationTrust>
+    <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -62,7 +60,7 @@
     <ApplicationIcon>WinHasher.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>60157F25A24BBBFF4CB426BA067246B32E971BAB</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>BAC24C0712159BC44B5E0B3462B00E70A13C1B56</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>

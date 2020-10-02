@@ -12,10 +12,10 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
+    <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -23,6 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://www.joepitt.co.uk/Project/WinHasher/Publish/GUI/</InstallUrl>
     <UpdateUrl>https://www.joepitt.co.uk/Project/WinHasher/Publish/GUI/</UpdateUrl>
     <SupportUrl>https://www.joepitt.co.uk/Project/WinHasher/</SupportUrl>
     <TargetCulture>en-GB</TargetCulture>
@@ -30,7 +31,6 @@
     <PublisherName>Joe Pitt</PublisherName>
     <SuiteName>WinHasher</SuiteName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <AutorunEnabled>true</AutorunEnabled>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>2.0.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
@@ -60,7 +60,7 @@
     <ApplicationIcon>WinHasher.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>60157F25A24BBBFF4CB426BA067246B32E971BAB</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>BAC24C0712159BC44B5E0B3462B00E70A13C1B56</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>

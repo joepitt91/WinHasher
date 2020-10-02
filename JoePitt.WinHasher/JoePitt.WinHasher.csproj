@@ -60,6 +60,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>"C:\Program Files (x86)\Microsoft SDKs\ClickOnce\SignTool\signtool.exe" sign /fd SHA256 /td SHA256 /tr http://time.certum.pl /sha1 60157f25a24bbbff4cb426ba067246b32e971bab "$(TargetPath)"</PostBuildEvent>
+    <PostBuildEvent>"C:\Program Files (x86)\Microsoft SDKs\ClickOnce\SignTool\signtool.exe" sign /fd SHA256 /td SHA256 /tr http://time.certum.pl /sha1 bac24c0712159bc44b5e0b3462b00e70a13c1b56 "$(TargetPath)"</PostBuildEvent>
   </PropertyGroup>
 </Project>
