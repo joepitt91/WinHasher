@@ -1,4 +1,4 @@
-// WinHasher - A File Hasher for Windows.
+﻿// WinHasher - A File Hasher for Windows.
 // Copyright (C) 2020 Joe Pitt
 
 // This program is free software: you can redistribute it and/or modify
@@ -15,12 +15,7 @@
 // along with this program.If not, see https://www.gnu.org/licenses/.
 
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace JoePitt.WinHasher.GUI

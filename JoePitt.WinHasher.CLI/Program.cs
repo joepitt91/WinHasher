@@ -1,4 +1,4 @@
-// WinHasher - A File Hasher for Windows.
+﻿// WinHasher - A File Hasher for Windows.
 // Copyright (C) 2020 Joe Pitt
 
 // This program is free software: you can redistribute it and/or modify
@@ -12,11 +12,11 @@
 // GNU General Public License for more details.
 
 // You should have received a copy of the GNU General Public License
-// along with this program.If not, see<https://www.gnu.org/licenses/>.
+// along with this program.If not, see https://www.gnu.org/licenses/.
 
+using JoePitt.WinHasher.Engines;
 using System;
 using System.IO;
-using JoePitt.WinHasher.Engines;
 
 namespace JoePitt.WinHasher.CLI
 {
@@ -24,11 +24,11 @@ namespace JoePitt.WinHasher.CLI
     {
         static void Main(string[] args)
         {
-            string license = "WinHasher CLI Copyright (C) 2018 Joe Pitt" + Environment.NewLine +
+            string license = "WinHasher CLI Copyright (C) 2020 Joe Pitt" + Environment.NewLine +
                 "This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you " +
                 "are welcome to redistribute it under certain conditions; see `" +
                 "https://www.joepitt.co.uk/Project/WinHasher/' for details.";
-            start:
+        start:
             Console.Title = "WinHasher CLI V2.0";
             Console.Clear();
             Console.WriteLine(license);

@@ -1,30 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using JoePitt.WinHasher.Engines;
+using System;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using JoePitt.WinHasher.Engines;
 
 namespace JoePitt.WinHasher.GUI
 {
     public partial class MainUI : Form
     {
-        static BackgroundWorker md5Worker = new BackgroundWorker();
+        static readonly BackgroundWorker md5Worker = new BackgroundWorker();
         static string computedMD5;
-        static BackgroundWorker sha1Worker = new BackgroundWorker();
+        static readonly BackgroundWorker sha1Worker = new BackgroundWorker();
         static string computedSHA1;
-        static BackgroundWorker sha256Worker = new BackgroundWorker();
+        static readonly BackgroundWorker sha256Worker = new BackgroundWorker();
         static string computedSHA256;
-        static BackgroundWorker sha384Worker = new BackgroundWorker();
+        static readonly BackgroundWorker sha384Worker = new BackgroundWorker();
         static string computedSHA384;
-        static BackgroundWorker sha512Worker = new BackgroundWorker();
+        static readonly BackgroundWorker sha512Worker = new BackgroundWorker();
         static string computedSHA512;
-        static BackgroundWorker verifyWorker = new BackgroundWorker();
+        static readonly BackgroundWorker verifyWorker = new BackgroundWorker();
         static string verifyType;
         static bool verifyTestResult;
 

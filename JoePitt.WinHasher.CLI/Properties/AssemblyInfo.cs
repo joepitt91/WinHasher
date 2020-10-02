@@ -1,4 +1,4 @@
-// WinHasher - A File Hasher for Windows.
+﻿// WinHasher - A File Hasher for Windows.
 // Copyright (C) 2020 Joe Pitt
 
 // This program is free software: you can redistribute it and/or modify
@@ -15,9 +15,8 @@
 // along with this program.If not, see https://www.gnu.org/licenses/.
 
 
-using System.Resources;
 using System.Reflection;
-using System.Runtime.CompilerServices;
+using System.Resources;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
@@ -28,7 +27,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Joe Pitt")]
 [assembly: AssemblyProduct("WinHasher")]
-[assembly: AssemblyCopyright("Copyright © Joe Pitt 2018")]
+[assembly: AssemblyCopyright("Copyright © Joe Pitt 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -50,7 +49,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.0")]
-[assembly: AssemblyFileVersion("2.0")]
+[assembly: AssemblyVersion("2.0.0")]
+[assembly: AssemblyFileVersion("2.0.0")]
 [assembly: NeutralResourcesLanguage("en-GB")]
 
