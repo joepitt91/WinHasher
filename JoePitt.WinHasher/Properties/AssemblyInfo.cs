@@ -1,4 +1,4 @@
-﻿using System.Resources;
+using System.Resources;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Joe Pitt")]
 [assembly: AssemblyProduct("WinHasher")]
-[assembly: AssemblyCopyright("Copyright © Joe Pitt 2018")]
+[assembly: AssemblyCopyright("Copyright © Joe Pitt 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
